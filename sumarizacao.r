@@ -16,6 +16,3 @@ calcula_satisfacao_media <- function(){
 calcula_tempo_medio <- function(){
     return(mean(dados$tempo))
 }
-
-
-funcao_toda_errada <- function(){}
