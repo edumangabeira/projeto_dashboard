@@ -38,6 +38,6 @@ gauge(rating, min = 0, max = 5, gaugeSectors(
 ```{r}
 cancellations <- calcula_tempo_medio()
 gauge(cancellations, min = 0, max = 7, gaugeSectors(
-  success = c(3, 7), warning = c(1, 2.99), danger = c(0, 0.99)
+  success = c(2, 7), warning = c(1, 1.99), danger = c(0, 0.99)
 ))
 ```
